@@ -104,7 +104,14 @@ multiply(4, 3, function(answer){
 
 //Code Here 
 
-function contains
+function contains(array, name, cb){
+  if (array.includes(name)) {
+    return cb(true)
+  } else {
+      return cb(false)
+  
+  }
+}
 
 
 // Do not edit the code below.
@@ -127,6 +134,18 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
+
+function uniq(arr, cb) {
+  let newArr = []
+    arr.forEach(element => {
+      if (!newArr.includes(element)) {
+        newArr.push(element)
+      } 
+    })
+    return cb(newArr)
+}
+
+//forEach is the callback function
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
