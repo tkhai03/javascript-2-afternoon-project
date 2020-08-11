@@ -16,6 +16,13 @@
 
 //Code here
 
+let me ={
+  name: "Khai",
+  age: 25
+}
+
+alert(me.name)
+
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,6 +31,10 @@
 */
 
 //Code here
+
+
+
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
