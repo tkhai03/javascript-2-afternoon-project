@@ -16,7 +16,7 @@
 
 //Code here
 
-let me ={
+let me = {
   name: "Khai",
   age: 25
 }
@@ -31,7 +31,14 @@ alert(me.name)
 */
 
 //Code here
-
+let favoriteThings = {
+  band: 'none',
+  food: 'chicken alfredo',
+  person: 'Linda Belcher',
+  book: 'Enders Game',
+  movie: 'Shawshanks Redemption',
+  holiday: 'Christmas'
+}
 
 
 
@@ -61,6 +68,9 @@ alert(me.name)
 */
 
 //Code here
+let backPack = {}
+const item = 'firstPocket'
+
 
 /*
   After you do the above, alert your entire backPack object.
